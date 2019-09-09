@@ -4,19 +4,19 @@ I used some of my common templates and components for basic infrastructure
 
 **How to start?**
 1. Execute Web Api
-``
+```
 cd web-api
 run npm i
 npm start
 cd .. 
-``
+```
 
 2. Execute Web App
-``
+```
 cd web-app
 run npm i
 npm start
-``
+```
 
 3. Enjoy.
 
