@@ -1,6 +1,9 @@
 # SimilarWebHomeTest
 **Background**
-I used some of my common templates and components for basic infrastructure
+I used some of my common templates and components for basic infrastructure:
+  1. js.infrastructure - https://github.com/Dannyets/Js.Infrastructure - i created some basic infrastructrue like controllers, repositories, services, clients, utils, factories for node js. I copied some of the code to the project for quick server side setup.
+  2. node js web api template - https://github.com/Dannyets/NodeJsWebApiTemplate - i created this template for quick setup of basic functionalities of web api server.
+  3. react - i didn't opened a repository for a template yet but i used some of my react app templates, for one of my other projects for quick environment setup.
 
 **How to start?**
 1. Execute Web Api
