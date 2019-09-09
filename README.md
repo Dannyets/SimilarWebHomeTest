@@ -27,6 +27,7 @@ npm start
   3. Replace all css with styled components.
   4. Replace all .js files with ts files.
   5. Make the app prettier.
+  6. Loaders to indicate that action is dispatched to the server.
   
 - Server Functionality + Scale
   1. Add Redis and Database to store all playlist records
