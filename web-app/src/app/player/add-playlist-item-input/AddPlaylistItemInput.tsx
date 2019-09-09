@@ -4,9 +4,9 @@ import { ConfigContext } from '../../../root'
 import { addItem } from '../Player.actions';
 import { IPlaylistItem } from '../models';
 import axios from 'axios';
-import { AddSoungInputContainer, AddButton, AddInput } from './AddSongInput.styles';
+import { AddSoungInputContainer, AddButton, AddInput } from './AddPlaylistItemInput.styles';
 
-export const AddSongInput: React.FC = ({ }) => {
+export const AddPlaylistItemInput: React.FC = ({ }) => {
     const context = useContext(ConfigContext);
     const { baseUrl } = context;
     const playlistApiUrl = `${baseUrl}/api/playlist`;

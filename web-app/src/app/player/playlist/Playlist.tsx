@@ -1,6 +1,6 @@
 import React from 'react'
 import { PlaylistItem } from '../playlist-item';
-import { AddSongInput } from '../add-song-input';
+import { AddPlaylistItemInput } from '../add-playlist-item-input';
 import { IPlaylistItem } from '../models';
 import { PlaylistContainer, InputContainer, PlaylistItemsContainer } from './Playlist.styles';
 
@@ -12,7 +12,7 @@ export const Playlist: React.FC<PlaylistListProps> = ({ items }) => {
     return (
         <PlaylistContainer>
             <InputContainer>
-                <AddSongInput/>
+                <AddPlaylistItemInput/>
             </InputContainer>
             <PlaylistItemsContainer>
                 {items.map(i => (
