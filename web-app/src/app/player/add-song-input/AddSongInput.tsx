@@ -22,9 +22,10 @@ export const AddSongInput: React.FC = ({ }) => {
             duration: 0
         };
 
-        await axios.post(playlistApiUrl, playlistItem);
+        const response = await axios.post(playlistApiUrl, playlistItem);
+        const { data: updatedPlaylistItem } = response;
 
-        dispatch(addItem(playlistItem));
+        dispatch(addItem(updatedPlaylistItem));
     }, [dispatch]);
 
     return (
